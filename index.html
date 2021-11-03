@@ -1,0 +1,271 @@
+<!-- HTML البنية الأساسية لأي صفحة -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- UTF-8 ترميز لغة الصفحة هي -->
+    <meta charset="utf-8">
+    <!-- إضافة عنوان للصفحة -->
+    <title>صفحة هبوط لتطبيق هاتف</title>
+    <!-- إضافة وصف للصفحة -->
+    <meta content="هذه هي صفحة هبوط لعد تنازلى لنشر تطبيق هاتفي عبارة عن لعبة" name="description"/>
+    <!-- Bootstrap إضافة إطار العمل -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML ضمن ملف animate تضمين التأثيرات الحركية -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- ضمن الصفحة Font-Awesome تضمين  أنماط الخطوط والأيقونات -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+
+<body>
+<!--رأس الصفحة-->
+<header class="text-center">
+    <div class="brand wow animate__animated animate__bounceIn">
+        <!--صورة الشعار-->
+        <div class="logo">
+            <img alt="icon" src="images/icon.png">
+        </div>
+
+        <!--صورة العاب موبايل احترافية-->
+        <div class="slogn">
+            <img alt="slogn" src="images/slogn.png">
+        </div>
+    </div>
+    <!-- العنوان والنص -->
+    <div class="page-heading wow animate__animated animate__fadeInUp">
+        <h1>
+            انتظرو انطلاق التطبيق قريبا
+        </h1>
+        <br>
+        <p>
+            هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم
+            في صناعات المطابع
+        </p>
+    </div>
+    <!--نهاية العنوان والنص-->
+
+    <!--اضافة عنصر العد الى جسم الصفحة-->
+    <div class="counter wow animate__animated animate__fadeInDown">
+        <div id="defaultCountdown"></div>
+    </div>
+    <!--نهاية عنصر العد-->
+
+    <!-- حقل البريد وزر الارسال -->
+    <div class="send-notification wow animate__animated animate__zoomIn">
+        <p>
+            هل تريد إرسال إشعار فور الانطلاق؟
+        </p>
+        <!-- نموذج إضافة البريد الإلكتروني -->
+        <form action="#" method="post" name="myForm" class="wow animate__animated animate__zoomIn">
+            <!-- Form-Group -->
+            <div class="form-group">
+                <!-- Input-Group -->
+                <div class="input-group">
+                    <input class="form-control" name="email" placeholder="بريدك الالكتروني" required type="email">
+                    <span class="input-group-btn">
+                            <button class="btn Form-Submit" name="submit" type="submit">
+                                <img alt="send" src="images/icons/send1.png">
+                            </button>
+                    </span>
+                    <!-- إضافة رسالة نجاح أو فشل إدخال عنوان البريد الإلكتروني -->
+                    <!-- Alert -->
+                    <div class="alert alert-danger" role="alert">
+                        <strong>عذراً! </strong> لقد قمت بإدخال بريد الكتروني خاطئ.
+                    </div> <!-- End Alert -->
+                    <div class="alert alert-success" role="alert">
+                        <strong>تهانينا، </strong> لقد تم ادخال بريدك الالكتروني بنجاح.
+                    </div> <!-- End Alert -->
+                </div> <!-- End Input-Group -->
+            </div> <!-- End Form-Group -->
+        </form>
+    </div>
+
+</header>
+<!--نهاية رأس الصفحة-->
+
+<!-- "إضافة أعمدة الكتابة وكتابة العنوان "مميزات اللعبة -->
+<section class="features">
+    <div class="container">
+        <h2>
+            مميزات اللعبة
+        </h2>
+        <div class="row">
+            <!-- إضافة أول عمود إلى قسم مميزات اللعبة -->
+            <div class="col-md-6">
+                <div class="media">
+                    <img src="images/icons/prush.png" alt="featur icon">
+                    <div class="media-body">
+                        <h5>
+                            تصميم أنيق وعصري
+                        </h5>
+                        <p>
+                            هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- إضافة ثاني عمود إلى قسم مميزات اللعبة -->
+            <div class="col-md-6">
+                <div class="media">
+                    <div class="media-body">
+                        <h5>
+                            يمكنك مشاركة اللعبة كمجموعة
+                        </h5>
+                        <p>
+                            هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                        </p>
+                    </div>
+                    <img src="images/icons/fork.png" alt="feature icon">
+                </div>
+            </div>
+
+            <!-- إضافة ثالث عمود إلى قسم مميزات اللعبة -->
+            <div class="col-md-6">
+                <div class="media">
+                    <img src="images/icons/mail.png" alt="featur icon">
+                    <div class="media-body">
+                        <h5>
+                            يمكنك ارسال الهدايا لأصدقائك في اللعبة
+                        </h5>
+                        <p>
+                            هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- إضافة رابع عمود إلى قسم مميزات اللعبة -->
+            <div class="col-md-6">
+                <div class="media">
+                    <div class="media-body">
+                        <h5>
+                            اضافة اصدقاء جدد
+                        </h5>
+                        <p>
+                            هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                        </p>
+                    </div>
+                    <img src="images/icons/person-plus.png" alt="feature icon">
+                </div>
+            </div>
+
+            <!-- إضافة خامس عمود إلى قسم مميزات اللعبة -->
+            <div class="col-md-6">
+                <div class="media">
+                    <img src="images/icons/phone.png" alt="featur icon">
+                    <div class="media-body">
+                        <h5>
+                            اللعبة متوفرة بوضع الشاشة الممتلئ
+                        </h5>
+                        <p>
+                            هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- إضافة سادس عمود إلى قسم مميزات اللعبة -->
+            <div class="col-md-6">
+                <div class="media">
+                    <div class="media-body">
+                        <h5>
+                            يوجد صور لتوضيح تفاصيل اللعبة
+                        </h5>
+                        <p>
+                            هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                        </p>
+                    </div>
+                    <img src="images/icons/photo.png" alt="feature icon">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--انتهاء قسم مميزات اللعبة-->
+
+<!-- للصفحة وكتابة النص داخله <footer> إضافة العنصر -->
+<footer>
+    <div class="top-footer text-center">
+        <div class="overlay">
+            <h3>
+                قم بإضافة بريدك الإلكتروني ليصلك إشعار فور الانطلاق
+            </h3>
+            <!-- إضافة نموذج البريد الإلكتروني وتغيير الأسماء البرمجية -->
+            <form action="#" method="post" name="myForm2">
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="بريدك الالكترونى" name="email2"   required>
+                        <span class="input-group-btn">
+                <button class="btn Form-Submit" type="submit" name="submit">
+                    <img src="images/icons/send.png" alt="send" />
+                </button>
+            </span>
+                        <div class="alert alert-danger" role="alert">
+                            <strong>عذراً! </strong> لقد قمت بإدخال بريد الكتروني خاطئ.
+                        </div>
+                        <div class="alert alert-success" role="alert">
+                            <strong>تهانينا، </strong> لقد تم ادخال بريدك الالكتروني بنجاح.
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="contact text-center">
+        <!-- إضافة عنوان -->
+        <h3>
+            تابعنا على القنوات الاجتماعية
+        </h3>
+        <!-- إضافة أيقونات التواصل الاجتماعي إلى الصفحة -->
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <a href="#" class="facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#" class="twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#" class="linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#" class="instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+        <hr>
+        <!-- إضافة رابط إرسال بريد إلكتروني وإضافة أيقونة له -->
+        <p>
+            <a href="mailto:info@domain.com?Subject=Hello" target="_top">
+                <i class="fas fa-envelope"></i>
+                info@domain.com
+            </a>
+        </p>
+    </div>
+</footer>
+
+
+<!-- jQuery إضافة مكتبة -->
+<script src="js/jquery-3.5.1.js"></script>
+<!-- Bootstrap إضافة إطار العمل -->
+<script src="js/bootstrap.min.js"></script>
+<!--اضافة العداد التنازلي-->
+<script src="js/jquery.plugin.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/jquery.countdown-ar.js"></script>
+<!--اضافة index.js-->
+<script src="js/index.js"></script>
+<!-- والتي تسمح باكتشاف الحركات المطبقة wow.js تضمين مكتبة -->
+<script src="wow/dist/wow.min.js"></script>
+
+</body>
+
+</html>

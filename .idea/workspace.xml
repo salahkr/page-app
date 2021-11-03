@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="416f82de-bf71-4f88-a4de-c078991c70b0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1k9NtJKOEXlMLMB6TuhjyQAN4Io" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="416f82de-bf71-4f88-a4de-c078991c70b0" name="Default Changelist" comment="" />
+      <created>1605109062671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605109062671</updated>
+      <workItem from="1605109064592" duration="2363000" />
+      <workItem from="1605113229500" duration="780000" />
+      <workItem from="1605121295230" duration="1549000" />
+      <workItem from="1605191130118" duration="2843000" />
+      <workItem from="1605201468026" duration="2961000" />
+      <workItem from="1605214653545" duration="539000" />
+      <workItem from="1605217523992" duration="1886000" />
+      <workItem from="1605267872410" duration="3767000" />
+      <workItem from="1605302905809" duration="4352000" />
+      <workItem from="1605337451169" duration="2046000" />
+      <workItem from="1605362054122" duration="1704000" />
+      <workItem from="1605384393789" duration="4315000" />
+      <workItem from="1605446521925" duration="1185000" />
+      <workItem from="1605450764402" duration="1907000" />
+      <workItem from="1605883080788" duration="5889000" />
+      <workItem from="1605957276612" duration="541000" />
+      <workItem from="1605958437263" duration="502000" />
+      <workItem from="1605959891898" duration="620000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="398" y="204" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605111206018">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="398" y="204" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1605111206018" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1605218836533">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1605218836533" />
+  </component>
+</project>
